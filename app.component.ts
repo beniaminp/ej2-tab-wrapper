@@ -12,7 +12,7 @@ import { Component, ViewEncapsulation, Inject } from '@angular/core';
 export class AppComponent {
 
     // Mapping Tab items Header property
-    public headerText: Object = [{ text: "Twitter", 'iconCss': 'e-twitter' },
-        { text: "Facebook", 'iconCss': 'e-facebook' }, { text: "WhatsApp", 'iconCss': 'e-whatsapp' }];
+    public headerText: Object = [{ text: "Twitter" },
+        { text: "Facebook"}, { text: "WhatsApp" }];
 
 }
