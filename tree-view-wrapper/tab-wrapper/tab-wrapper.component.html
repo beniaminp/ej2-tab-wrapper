@@ -1,0 +1,9 @@
+<ejs-tab heightAdjustMode='Auto'>
+    <e-tabitems>
+        <e-tabitem *ngFor="let tabItem of tabItems.tabItemsList.toArray()" [header]='tabItem.headerText'>
+            <ng-template #content>
+                <ng-container *ngTemplateOutlet="tabItem.template"></ng-container> 
+            </ng-template>
+        </e-tabitem>
+    </e-tabitems>
+</ejs-tab>
